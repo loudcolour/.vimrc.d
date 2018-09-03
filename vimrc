@@ -1,4 +1,4 @@
-" ln -s ~/.vimrc.d/.vimrc ~/.vimrc
+" ln -s ~/.vimrc.d/vimrc ~/.vimrc
 
 source ~/.vimrc.d/shortcuts.vim
 source ~/.vimrc.d/editor.vim
