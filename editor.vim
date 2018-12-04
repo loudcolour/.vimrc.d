@@ -59,17 +59,19 @@ augroup InsertTheme
 	au InsertLeave * set nocursorcolumn
 augroup END
 
-:set number relativenumber
+let g:airline_theme = 'material'
 
-:augroup numbertoggle
-:  autocmd!
-:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
-:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
-:augroup END
+set number relativenumber
+
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
 
 set colorcolumn=80,81,130,131
 set list
-set listchars=nbsp:+,trail:·,tab:\|\ 
+set listchars=tab:\|\ ,trail:.,nbsp:+,precedes:<,extends:>
 
 " Window
 

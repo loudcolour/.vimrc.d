@@ -21,6 +21,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-syntastic/syntastic'
 Plug 'vim-airline/vim-airline'
+Plug 'LaTeX-Box-Team/LaTeX-Box'
+Plug 'dkarter/bullets.vim'
+Plug 'cespare/vim-toml'
 
 " Theme, Colorscheme
 
