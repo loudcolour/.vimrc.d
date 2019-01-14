@@ -5,6 +5,9 @@ endif
 set hlsearch 
 set incsearch
 
+" Unicode
+
+set encoding=utf-8
 " Editing
 
 set autowrite
@@ -16,9 +19,7 @@ set number
 set ts=4
 set shiftwidth=4
 set noexpandtab
-set backspace=2
-
-set laststatus=2
+set backspace=indent,eol,start
 
 
 set foldenable
@@ -39,7 +40,6 @@ set cindent
 " Using `seoul256' and `seoul256-light' colorscheme by junegunn
 " Also recommend using same iTerm2 colorscheme.
 " https://github.com/junegunn/seoul256.vim
-set background=dark
 let g:material_terminal_italics = 1
 let g:material_theme_style = 'palenight'
 if (has("nvim"))
@@ -59,8 +59,6 @@ augroup InsertTheme
 	au InsertLeave * set nocursorcolumn
 augroup END
 
-let g:airline_theme = 'material'
-
 set number relativenumber
 
 augroup numbertoggle
@@ -71,7 +69,7 @@ augroup END
 
 set colorcolumn=80,81,130,131
 set list
-set listchars=tab:\|\ ,trail:.,nbsp:+,precedes:<,extends:>
+set listchars=tab:\|\ ,trail:·,nbsp:+,eol:⇣
 
 " Window
 
@@ -82,4 +80,6 @@ set splitright
 
 set nocompatible
 set mouse=vin
+
+set laststatus=2
 

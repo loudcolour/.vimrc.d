@@ -53,3 +53,6 @@ xmap ga <Plug>(EasyAlign)
 set completefunc=emoji#complete
 command EmojiConv :%s/:\([^:]\+\):/\=emoji#for(submatch(1), submatch(0))/g
 
+" configuration for `vim-airline/vim-airline`
+
+let g:airline_section_z="T%L/L%l/C%c%V"
