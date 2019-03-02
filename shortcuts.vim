@@ -1,11 +1,11 @@
-" enter vimrc
+" .vimrc.d
 
-command RCeditor :e ~/.vimrc.d/editor.vim
-command RCplugins :e ~/.vimrc.d/plugins.vim
-command RCpluginsconf :e ~/.vimrc.d/plugins-config.vim
-command RCshortcuts :e ~/.vimrc.d/shortcuts.vim
+command Rce :vsp ~/.vimrc.d/editor.vim
+command RCp :vsp ~/.vimrc.d/plugins.vim
+command RCpc :vsp ~/.vimrc.d/plugins-config.vim
+command RCs :vsp ~/.vimrc.d/shortcuts.vim
 
-" LaTeX and/or XeLaTeX
+" TeX
 
 command BuildLX :! latex % && dvipdfmx %
 command BuildXLX :! xelatex %
