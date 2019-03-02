@@ -1,6 +1,6 @@
 # .vimrc.d
 `loudcolour`'s vim setup.
-## Applying Settings
+## Set-up
 1. Clone this repository to home directory.  
 `git clone https://github.com/loudcolour/.vimrc.d.git`
 2. Make symlink `.vimrc` linked to `~/.vimrc.d/vimrc`
