@@ -12,10 +12,10 @@ command BuildXLX :! xelatex %
 
 " Emacs-like Keymaps
 
-inoremap <C-n> <Down>
+inoremap <C-f> <Down>
 inoremap <C-p> <Up>
-inoremap <C-b> <Left>
-inoremap <C-f> <Right>
+inoremap <C-l> <Left>
+inoremap <C-u> <Right>
 inoremap <silent> <C-d> <Del>
 inoremap <silent> <C-a> <Esc>o<Insert>
 inoremap <silent> <C-e> <Esc>$a
