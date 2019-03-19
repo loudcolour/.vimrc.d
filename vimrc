@@ -6,6 +6,8 @@ source ~/.vimrc.d/plugins.vim
 source ~/.vimrc.d/plugins-config.vim
 source ~/.vimrc.d/shortcuts.vim
 
-colo material
+let g:seoul256_background = 236
+colo seoul256
+
 set cursorline
 set shortmess=at
