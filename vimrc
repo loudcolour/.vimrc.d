@@ -8,6 +8,7 @@ source ~/.vimrc.d/shortcuts.vim
 
 let g:seoul256_background = 236
 colo seoul256
+let g:airline_theme='wombat'
 
 set cursorline
 set shortmess=at
