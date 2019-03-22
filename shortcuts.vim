@@ -1,21 +1,25 @@
 " .vimrc.d
 
-command Rce :vsp ~/.vimrc.d/editor.vim
+command RCe :vsp ~/.vimrc.d/editor.vim
 command RCp :vsp ~/.vimrc.d/plugins.vim
 command RCpc :vsp ~/.vimrc.d/plugins-config.vim
 command RCs :vsp ~/.vimrc.d/shortcuts.vim
 
-" TeX
+" tex
 
-command BuildLX :! latex % && dvipdfmx %
-command BuildXLX :! xelatex %
+command BL :! latex % && dvipdfmx %:r
+command BPL :! platex % && dvipdfmx %:r
 
-" Emacs-like Keymaps
+" swap ; and :
 
-inoremap <C-f> <Down>
-inoremap <C-p> <Up>
-inoremap <C-l> <Left>
-inoremap <C-u> <Right>
-inoremap <silent> <C-d> <Del>
-inoremap <silent> <C-a> <Esc>o<Insert>
-inoremap <silent> <C-e> <Esc>$a
+nnoremap ; :
+vnoremap ; :
+nnoremap : ;
+vnoremap : ;
+
+" swap j and k
+
+nnoremap j k
+vnoremap j k
+nnoremap k j
+vnoremap k j
