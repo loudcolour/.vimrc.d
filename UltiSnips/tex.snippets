@@ -4,6 +4,54 @@ snippet begin "\begin{} / \end{}"
 \end{$1}
 endsnippet
 
-snippet dc "Doucument Class" b
-\documentclass{$0}
+snippet lech "Lecture Header" b
+\documentclass{lecture}
+% requires lecture.cls
+
+\title{$1}
+
+\subject{$2}
+\date{$3}
+\place{$4}
+
+\author{$5}
+\authoremail{$6}
+\lecturer{$7}
+\email{$8}
+
+\begin{document}
+\maketitle
+
+$0
+\end{document}
+endsnippet
+
+snippet lechj "Lecture Header (Japanese)" b
+\documentclass{jslecture}
+% requires jslecture.cls
+
+\title{$1}
+
+\subject{$2}
+\date{$3}
+\place{$4}
+
+\author{$5}
+\authoremail{$6}
+\lecturer{$7}
+\email{$8}
+
+\begin{document}
+\maketitle
+
+$0
+\end{document}
+endsnippet
+
+snippet thrm "Theorem" b
+{\noindent\bf Theorem $1} $0
+endsnippet
+
+snippet thrmj "Theorem (Japanese)" b
+{\noindent\bf 定義 $1} $0
 endsnippet

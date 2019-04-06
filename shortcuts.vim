@@ -9,6 +9,7 @@ command RCs :vsp ~/.vimrc.d/shortcuts.vim
 
 command BL :! latex % && dvipdfmx %:r
 command BPL :! platex % && dvipdfmx %:r
+command OL :! open %:r.pdf
 
 " swap ; and :
 

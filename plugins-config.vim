@@ -12,6 +12,6 @@ colo seoul256
 
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vimrc.d/UltiSnips']
 
-let g:UltiSnipsExpandTrigger='<tab>'
+let g:UltiSnipsExpandTrigger='<c-k>'
 let g:UltiSnipsJumpForwardTrigger='<tab>'
 let g:UltiSnipsJumpBackwardTrigger='<s-tab>'
