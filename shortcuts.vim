@@ -11,6 +11,8 @@ command BL :! latex % && dvipdfmx %:r
 command BPL :! platex % && dvipdfmx %:r
 command OL :! open %:r.pdf
 
+command Jmath :%s/。/．/g | %s/、/，/g
+
 " swap ; and :
 
 nnoremap ; :
