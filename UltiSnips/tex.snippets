@@ -5,41 +5,19 @@ snippet begin "\begin{} / \end{}"
 endsnippet
 
 snippet lech "Lecture Header" b
-\documentclass{lecture}
+\documentclass[$1]{lecture}
 % requires lecture.cls
 
-\title{$1}
+\title{$2}
 
-\subject{$2}
-\date{$3}
-\place{$4}
+\subject{$3}
+\date{$4}
+\place{$5}
 
-\author{$5}
-\authoremail{$6}
-\lecturer{$7}
-\email{$8}
-
-\begin{document}
-\maketitle
-
-$0
-\end{document}
-endsnippet
-
-snippet lechj "Lecture Header (Japanese)" b
-\documentclass{jslecture}
-% requires jslecture.cls
-
-\title{$1}
-
-\subject{$2}
-\date{$3}
-\place{$4}
-
-\author{$5}
-\authoremail{$6}
-\lecturer{$7}
-\email{$8}
+\author{$6}
+\authoremail{$7}
+\lecturer{$8}
+\email{$9}
 
 \begin{document}
 \maketitle
