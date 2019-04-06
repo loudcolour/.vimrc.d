@@ -9,7 +9,11 @@ command RCs :vsp ~/.vimrc.d/shortcuts.vim
 
 command BL :! latex % && dvipdfmx %:r
 command BPL :! platex % && dvipdfmx %:r
-command OL :! open %:r.pdf
+command BXL :! xelatex %
+
+command CL :! rm %:r.aux %:r.log %:r.out %:r.dvi %:r.pdf
+
+command OpenPDF :! open %:r.pdf
 
 command Jmath :%s/。/．/g | %s/、/，/g
 
