@@ -28,6 +28,10 @@ Plug 'lervag/vimtex'
 Plug 'plasticboy/vim-markdown'
 Plug 'dkarter/bullets.vim'
 
+" ruby
+
+Plug 'vim-ruby/vim-ruby'
+
 " theme, colorscheme
 
 Plug 'junegunn/seoul256.vim'
