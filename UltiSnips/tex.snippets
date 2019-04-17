@@ -86,7 +86,11 @@ snippet cfra "Fractions" i
 \cfrac{$1}{$2} $0
 endsnippet
 
-snippet l "Lecture Header" b
+snippet bin "Binomial" i
+\binom{$1}{$2} $0
+endsnippet
+
+snippet lh "Lecture Header" b
 \documentclass[$1]{lecture}
 % requires lecture.cls
 
@@ -100,6 +104,25 @@ snippet l "Lecture Header" b
 \authoremail{$7}
 \lecturer{$8}
 \email{$9}
+
+\begin{document}
+\maketitle
+
+$0
+\end{document}
+endsnippet
+
+snippet sh "Study Header" b
+\documentclass[$1]{study}
+% requires study.cls
+
+\title{$2}
+
+\subject{$3}
+\date{$4}
+
+\author{$5}
+\authoremail{$6}
 
 \begin{document}
 \maketitle
