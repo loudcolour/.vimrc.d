@@ -2,221 +2,194 @@ snippet be "\begin{} / \end{}" i
 \begin{$1}
 	$2
 \end{$1}
-
 $0
 endsnippet
 
 snippet bf "Bold" i
-\textbf{$1} $0
+\textbf{$1}$0
 endsnippet
 
 snippet emph "Emphasize" i
-\emph{$1} $0
+\emph{$1}$0
 endsnippet
 
 snippet s "$$" i
-$$1$ $0
+$$1$$0
 endsnippet
 
 snippet d "\[\]" b
 \[
 	$1
 \]
-
 $0
 endsnippet
 
 snippet up "Up" i
-^{$1} $0
+^{$1}$0
 endsnippet
 
 snippet down "Down" i
-_{$1} $0
+_{$1}$0
 endsnippet
 
 snippet pa "\left(\right)" i
-\left( $1 \right) $0
+\left( $1 \right)$0
 endsnippet
 
 snippet cu "\left\{\right\}" i
-\left\\{ $1 \right\\} $0
+\left\\{ $1 \right\\}$0
 endsnippet
 
 snippet br "\left[\right]" i
-\left[ $1 \right] $0
+\left[ $1 \right]$0
 endsnippet
 
 snippet ang "\langle\rangle" i
-\langle $1 \rangle $0
+\langle $1 \rangle$0
 endsnippet
 
 snippet sq "Square Root" i
-\sqrt{$1} $0
+\sqrt{$1}$0
 endsnippet
 
 snippet lim "Limit" i
-\lim_{$1 \to $2} $0
+\lim_{$1 \to $2}$0
 endsnippet
 
 snippet int "Integral" i
-\int_{$1}^{$2} $0
+\int_{$1}^{$2}$0
 endsnippet
 
 snippet intd "Integral" i
-\int_{$1}^{$2} $4 \ d$3 $0
+\int_{$1}^{$2} $3 \,d$4 $0
 endsnippet
 
 snippet sum "Sum" i
-\sum_{$1}^{$2} $0
+\sum_{$1}^{$2}$0
 endsnippet
 
 snippet prd "Product" i
-\prod_{$1}^{$2} $0
+\prod_{$1}^{$2}$0
+endsnippet
+
+snippet cab "Cap" i
+\bigcap_{$1}^{$2}$0
+endsnippet
+
+snippet cub "Cup" i
+\bigcup_{$1}^{$2}$0
 endsnippet
 
 snippet frac "Fractions" i
-\frac{$1}{$2} $0
+\frac{$1}{$2}$0
 endsnippet
 
 snippet dfra "Fractions" i
-\dfrac{$1}{$2} $0
+\dfrac{$1}{$2}$0
 endsnippet
 
 snippet cfra "Fractions" i
-\cfrac{$1}{$2} $0
+\cfrac{$1}{$2}$0
 endsnippet
 
 snippet bin "Binomial" i
-\binom{$1}{$2} $0
-endsnippet
-
-snippet lh "Lecture Header" b
-\documentclass[$1]{lecture}
-% requires lecture.cls
-
-\title{$2}
-
-\subject{$3}
-\date{$4}
-\place{$5}
-
-\author{$6}
-\authoremail{$7}
-\lecturer{$8}
-\email{$9}
-
-\begin{document}
-\maketitle
-
-$0
-\end{document}
-endsnippet
-
-snippet sh "Study Header" b
-\documentclass[$1]{study}
-% requires study.cls
-
-\title{$2}
-
-\subject{$3}
-\date{$4}
-
-\author{$5}
-\authoremail{$6}
-
-\begin{document}
-\maketitle
-
-$0
-\end{document}
+\binom{$1}{$2}$0
 endsnippet
 
 snippet sec "Section" b
-\section{$1} $0
+\section{$1}$0
 endsnippet
 
 snippet ssec "Subsection" b
-\subsection{$1} $0
+\subsection{$1}$0
 endsnippet
 
 snippet sssec "Subsubsection" b
-\subsubsection{$1} $0
+\subsubsection{$1}$0
 endsnippet
 
 snippet axi "Axiom" b
 \begin{axiom}
-	$0
+	$1
 \end{axiom}
 endsnippet
 
 snippet pro "Proposition" b
 \begin{proposition}
-	$0
+	$1
 \end{proposition}
 endsnippet
 
 snippet the "Theorem" b
 \begin{theorem}
-	$0
+	$1
 \end{theorem}
 endsnippet
 
 snippet lem "Lemma" b
 \begin{lemma}
-	$0
+	$1
 \end{lemma}
 endsnippet
 
 snippet cor "Corollary" b
 \begin{corollary}
-	$0
+	$1
 \end{corollary}
 endsnippet
 
 snippet def "Definition" b
 \begin{definition}
-	$0
+	$1
 \end{definition}
+$0
 endsnippet
 
 snippet prf "Proof" b
 \begin{proof}
-	$0
+	$1
 \end{proof}
+$0
 endsnippet
 
 snippet exa "Example" b
 \begin{example}
-	$0
+	$1
 \end{example}
+$0
 endsnippet
 
 snippet prb "Problem" b
 \begin{problem}
-	$0
+	$1
 \end{problem}
+$0
 endsnippet
 
 snippet sol "Solution" b
 \begin{solution}
-	$0
+	$1
 \end{solution}
+$0
 endsnippet
 
 snippet not "Note" b
 \begin{note}
-	$0
+	$1
 \end{note}
+$0
 endsnippet
 
 snippet rem "Remark" b
 \begin{remark}
-	$0
+	$1
 \end{remark}
+$0
 endsnippet
 
 snippet con "Conjecture" b
 \begin{conjecture}
-	$0
+	$1
 \end{conjecture}
+$0
 endsnippet
