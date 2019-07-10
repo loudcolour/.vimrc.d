@@ -7,8 +7,8 @@ command RCs :vsp ~/.vimrc.d/shortcuts.vim
 
 " tex
 
-command BL :! latex % && dvipdfmx %:r
-command BPL :! platex % && dvipdfmx %:r
+command BL :! latex % & dvipdfmx %:r
+command BPL :! platex % & dvipdfmx %:r
 command BXL :! xelatex %
 
 command CL :! rm %:r.aux %:r.log %:r.out %:r.dvi %:r.pdf
